@@ -20,6 +20,7 @@ public class jdbcex {
 			System.out.println(con.getClientInfo());
 			System.out.println(con.getTransactionIsolation());
 			Statement st = con.createStatement();
+			//String 
 			ResultSet rs = st.executeQuery("select * from student");
 			while(rs.next()) {
 				System.out.println(" slno "+rs.getInt(1)+"name "+rs.getString(2));
