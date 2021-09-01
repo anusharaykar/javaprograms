@@ -15,8 +15,8 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class HelloServlet
  */
-@WebServlet("/lab4a")
-public class lab4a extends HttpServlet {
+@WebServlet("/SERVELETEX")
+public class SERVELETEX extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
@@ -26,7 +26,7 @@ public class lab4a extends HttpServlet {
 double price1=12;
 double price2=15;
  
-    public lab4a() {
+    public SERVELETEX() {
         super();
         // TODO Auto-generated constructor stub
     }
